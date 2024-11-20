@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="oculii_ros" type="oculii_ros_node" name="oculii_ros_node" ns="radar_default" output="screen" >
+    <param name="config_path" type="string" value="$(find oculii_ros)/config/radar.xml" />
+    <param name="mode" type="int" value="1" />
+</node>
+</launch>
